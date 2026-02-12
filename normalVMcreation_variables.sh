@@ -1,7 +1,7 @@
  # Set variables
 RG_NAME="az104-rg8"
 VM_NAME="myPSVM"
-LOCATION="eastus"
+LOCATION="uksouth"
 IMAGE="MicrosoftWindowsServer:WindowsServer:2025-datacenter-g2:latest"
 VM_SIZE="Standard_B2s"
 
