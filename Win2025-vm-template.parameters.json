@@ -1,0 +1,51 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "adminUsername": {
+            "value": "local"
+        },
+        "adminPassword": {
+            "value": null
+        },
+        "vmNamePrefix": {
+            "value": "az104-10-vm"
+        },
+        "pipNamePrefix": {
+            "value": "az104-10-pip"
+        },
+        "nicNamePrefix": {
+            "value": "az104-10-nic"
+        },
+        "imagePublisher": {
+            "value": "MicrosoftWindowsServer"
+        },
+        "imageOffer": {
+            "value": "WindowsServer"
+        },
+        "imageSKU": {
+            "value": "2025-datacenter-core-g2"
+        },
+        "vmSize": {
+            "value": "Standard_D2alds_v7"
+        },
+        "virtualNetworkName": {
+            "value": "az104-10-vnet"
+        },
+        "addressPrefix": {
+            "value": "10.0.0.0/24"
+        },
+        "virtualNetworkResourceGroup": {
+            "value": "az104-10-rg10"
+        },
+        "subnet0Name": {
+            "value": "subnet0"
+        },
+        "subnet0Prefix": {
+            "value": "10.0.0.0/26"
+        },
+        "nsgName": {
+            "value": "az104-10-nsg01"
+        }
+    }
+}
