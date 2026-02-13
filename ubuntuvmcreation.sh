@@ -7,3 +7,7 @@ az vm create \
   --size Standard_D2alds_v7 \
   --location uksouth \
   --zone 1
+
+ az vm show --name  myCLIVM --resource-group az104-rg8 --show-details --output table
+
+ #  az vm deallocate --resource-group az104-rg8 --name myCLIVM
